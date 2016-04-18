@@ -1,0 +1,38 @@
+
+
+.site-footer-contents {
+
+	background: $brand-alt2;
+	color: #fff;
+	
+	span {
+		color: inherit !important;
+	}
+	
+	.trow > div {
+		padding: 25px 25px !important;
+		text-align: center;
+	}
+	
+	i {
+		margin-right: 4px;
+	}
+	
+	a {
+	
+		color: inherit !important;
+		text-decoration: none !important;
+		
+		&:hover {
+		
+			text-decoration: none !important;
+			
+			> span {
+				text-decoration: underline !important;
+			}
+			
+		}
+		
+	}
+	
+}

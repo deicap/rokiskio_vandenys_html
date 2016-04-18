@@ -1,0 +1,63 @@
+
+.site-main {
+	margin: 0 0 30px 0;
+	position: relative;
+}
+
+.site-content {
+	background: #fff;
+}
+
+.site-aside {
+
+}
+
+.site-article {
+	padding: 30px  !important;
+	
+	a {
+		text-decoration: underline !important;
+		&:hover {
+			text-decoration: none !important;
+		}
+	}
+	
+}
+
+.pagination {
+
+	a {
+
+		color: inherit !important;
+		text-decoration: none !important;
+
+		&:hover {
+			text-decoration: none !important;
+		}
+
+	}
+	
+	.active {
+		
+		a.page-link {
+			color: #fff !important;
+		}
+
+	}
+	
+}
+
+.site-article-wide-image {
+	width: 100%;
+	img {
+		width: 100%;
+	}
+}
+
+.site-article-title {
+	margin: 0 0 30px 0;
+}
+
+.site-main-trow {
+	table-layout: fixed;
+}

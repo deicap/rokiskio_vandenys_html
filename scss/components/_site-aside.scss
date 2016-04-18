@@ -1,0 +1,33 @@
+.site-aside {
+    width: 210px;
+    background: #f6f6f6;
+    border-right: #d8d8d8 1px solid;
+	padding: 0 !important;
+}
+
+.site-aside-nav {
+	
+	margin: -1px -1px 30px -1px;
+	position: relative;
+	
+	a {
+		text-decoration: none !important;
+		&:hover {
+			text-decoration: none !important;
+		}
+	}
+	
+	.fa {
+		width: 18px;
+		display: inline-block;
+	}
+	
+	.list-group-item:first-child  {
+		@include multi-border-radius($border-radius, 0, 0, 0);
+	}
+	
+	.list-group-item:last-child  {
+		@include multi-border-radius(0, 0, 0, 0);
+	}
+	
+}
