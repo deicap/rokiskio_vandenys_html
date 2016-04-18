@@ -239,7 +239,7 @@ p {
 
 abbr[title], abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #d8d8d8; }
+  border-bottom: 1px dotted #bbb; }
 
 address {
   margin-bottom: 1rem;
@@ -296,7 +296,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #767676;
+  color: #bbb;
   text-align: left;
   caption-side: bottom; }
 
@@ -455,7 +455,7 @@ mark, .mark {
   display: block;
   font-size: 80%;
   line-height: 1.45;
-  color: #d8d8d8; }
+  color: #bbb; }
   .blockquote-footer::before {
     content: "\2014 \00A0"; }
 
@@ -503,7 +503,7 @@ mark, .mark {
 
 .figure-caption {
   font-size: 90%;
-  color: #d8d8d8; }
+  color: #bbb; }
 
 code, kbd, pre, samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
@@ -2011,7 +2011,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     text-decoration: underline;
     background-color: transparent; }
   .btn-link:disabled:focus, .btn-link:disabled:hover {
-    color: #d8d8d8;
+    color: #bbb;
     text-decoration: none; }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -2124,7 +2124,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     background-color: #FF9966;
     outline: 0; }
   .dropdown-item.disabled, .dropdown-item.disabled:focus, .dropdown-item.disabled:hover {
-    color: #d8d8d8; }
+    color: #bbb; }
   .dropdown-item.disabled:focus, .dropdown-item.disabled:hover {
     text-decoration: none;
     cursor: false;
@@ -2150,7 +2150,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   padding: 3px 20px;
   font-size: 0.92rem;
   line-height: 1.45;
-  color: #d8d8d8;
+  color: #bbb;
   white-space: nowrap; }
 
 .dropdown-backdrop {
@@ -2523,9 +2523,9 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   .nav-link:focus, .nav-link:hover {
     text-decoration: none; }
   .nav-link.disabled {
-    color: #d8d8d8; }
+    color: #bbb; }
     .nav-link.disabled, .nav-link.disabled:focus, .nav-link.disabled:hover {
-      color: #d8d8d8;
+      color: #bbb;
       cursor: false;
       background-color: transparent; }
 
@@ -2553,7 +2553,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
       border-color: #eaeaea #eaeaea #ddd; }
     .nav-tabs .nav-link.disabled, .nav-tabs .nav-link.disabled:focus, .nav-tabs .nav-link.disabled:hover {
-      color: #d8d8d8;
+      color: #bbb;
       background-color: transparent;
       border-color: transparent; }
   .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover, .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover {
@@ -2730,10 +2730,10 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     .breadcrumb > li + li::before {
       padding-right: .5rem;
       padding-left: .5rem;
-      color: #d8d8d8;
+      color: #bbb;
       content: "/"; }
   .breadcrumb > .active {
-    color: #d8d8d8; }
+    color: #bbb; }
 
 .pagination {
   display: inline-block;
@@ -2758,7 +2758,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     background-color: #FF9966;
     border-color: #FF9966; }
   .page-item.disabled .page-link, .page-item.disabled .page-link:focus, .page-item.disabled .page-link:hover {
-    color: #d8d8d8;
+    color: #bbb;
     cursor: false;
     background-color: #fff;
     border-color: #ddd; }
@@ -2822,11 +2822,11 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
       text-decoration: none;
       background-color: #eaeaea; }
   .pager .disabled > a, .pager .disabled > a:focus, .pager .disabled > a:hover {
-    color: #d8d8d8;
+    color: #bbb;
     cursor: false;
     background-color: #fff; }
   .pager .disabled > span {
-    color: #d8d8d8;
+    color: #bbb;
     cursor: false;
     background-color: #fff; }
 
@@ -2865,9 +2865,9 @@ a.label:focus, a.label:hover {
   border-radius: 10rem; }
 
 .label-default {
-  background-color: #d8d8d8; }
+  background-color: #bbb; }
   .label-default[href]:focus, .label-default[href]:hover {
-    background-color: #bfbfbf; }
+    background-color: #a2a2a2; }
 
 .label-primary {
   background-color: #FF9966; }
@@ -3003,7 +3003,7 @@ a.label:focus, a.label:hover {
 
   .progress[width^="0"] {
     min-width: 2rem;
-    color: #d8d8d8;
+    color: #bbb;
     background-color: transparent;
     background-image: none; }
 
@@ -3102,13 +3102,13 @@ a.list-group-item, button.list-group-item {
     background-color: #f5f5f5; }
 
 .list-group-item.disabled, .list-group-item.disabled:focus, .list-group-item.disabled:hover {
-  color: #d8d8d8;
+  color: #bbb;
   cursor: false;
   background-color: #eaeaea; }
   .list-group-item.disabled .list-group-item-heading, .list-group-item.disabled:focus .list-group-item-heading, .list-group-item.disabled:hover .list-group-item-heading {
     color: inherit; }
   .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text {
-    color: #d8d8d8; }
+    color: #bbb; }
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
   z-index: 2;
   color: #fff;
@@ -3834,7 +3834,7 @@ button.close {
   font-style: italic; }
 
 .text-muted {
-  color: #767676; }
+  color: #bbb; }
 
 .text-primary {
   color: #FF9966 !important; }
@@ -4552,7 +4552,7 @@ ul, ol {
 
 .listing-item {
   position: relative;
-  border-bottom: #d8d8d8 1px solid;
+  border-bottom: #bbb 1px solid;
   padding-bottom: 30px;
   margin-bottom: 30px; }
   .listing-item:after {
@@ -4567,11 +4567,13 @@ ul, ol {
 
 .layout-homepage > .trow > div {
   padding: 0 !important; }
+.layout-homepage .site-article {
+  padding: 0 !important; }
 
 .layout-homepage-sidebar {
   width: 285px;
   background: #f6f6f6;
-  border-right: #d8d8d8 1px solid;
+  border-right: #bbb 1px solid;
   padding: 30px !important; }
   .layout-homepage-sidebar a {
     text-decoration: none !important;
@@ -4580,7 +4582,7 @@ ul, ol {
       text-decoration: underline !important; }
 
 .layout-homepage-submenu {
-  border-bottom: #d8d8d8 1px solid;
+  border-bottom: #bbb 1px solid;
   background: #f1f1f1;
   background-image: -ms-linear-gradient(top left, #FFFFFF 0%, #909090 500%);
   background-image: -moz-linear-gradient(top left, #FFFFFF 0%, #909090 500%);
