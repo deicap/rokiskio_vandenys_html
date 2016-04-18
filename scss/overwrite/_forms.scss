@@ -35,9 +35,14 @@
 }
 
 .table-grouping-row {
+
 	> td {
-		padding-top: 20px;
+		padding-top: 15px !important;
+		padding-bottom: 15px !important;
+		background: $gray-lightest;
+		font-style: italic;
 	}
+	
 }
 
 

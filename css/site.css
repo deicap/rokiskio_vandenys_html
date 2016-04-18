@@ -4351,7 +4351,10 @@ ul, ol {
   vertical-align: middle; }
 
 .table-grouping-row > td {
-  padding-top: 20px; }
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  background: #f7f7f9;
+  font-style: italic; }
 
 .form-inline-history {
   margin: 0 0 30px 0; }

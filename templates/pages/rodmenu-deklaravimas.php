@@ -20,7 +20,7 @@
 			  <tbody>
 			  
 				<tr class="table-grouping-row">
-				  <td colspan="4"><em class="text-muted">Kliento kodas: <strong>123456789</strong>, Vilniaus g. 25-22, Rokiškis</em></td>
+				  <td colspan="4">Kliento kodas: <strong>123456789</strong>, Vilniaus g. 25-22, Rokiškis</td>
 				</tr>
 			 
 				<tr class="no-border-top">
@@ -36,7 +36,7 @@
 				
 				
 				<tr class="table-grouping-row">
-				  <td colspan="4"><em class="text-muted">Kliento kodas: <strong>123456789</strong>, Vilniaus g. 25-22, Rokiškis</em></td>
+				  <td colspan="4">Kliento kodas: <strong>123456789</strong>, Vilniaus g. 25-22, Rokiškis</td>
 				</tr>
 				
 				<tr class="no-border-top">
